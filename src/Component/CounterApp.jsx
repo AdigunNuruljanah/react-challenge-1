@@ -13,16 +13,17 @@ export default function CounterApp() {
         <>
             <div className="wrapper">
                 <h1>Challenge-1 Counter</h1>
-                <h3 style={{color:'lightblue'}}>Up Counter</h3>
+                <h3 style={{ color: 'lightblue' }}>Up Counter</h3>
                 <p style={{ fontSize: '50px' }}>{count}</p>
                 <div className="btn">
                     <button onClick={handleIncrement}>Increment</button>
                     <button onClick={() => {
-                        count <= 0 ? setCount(count = 0) :
-                        setCount(count - 1)
+                        count <= 0 ? setCount(0) :
+                            setCount(count - 1)
                     }}>
                         Decrement
                     </button>
+
                 </div>
 
             </div>
