@@ -1,16 +1,31 @@
-# React + Vite
+# React + Vite    Date: 19/06/2026 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Counter App
 
-Currently, two official plugins are available:
+A simple React counter application built using the `useState` Hook.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+* Increment counter value
+* Decrement counter value
+* Prevents counter from going below zero
+* Responsive and easy-to-understand UI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
 
-## Expanding the ESLint configuration
+* React
+* JavaScript (ES6+)
+* CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Concepts Practiced
+
+* Functional Components
+* React Hooks (`useState`)
+* Event Handling
+* Conditional Logic
+* State Management
+
+## Adigun Tech Pro
+
+Nurullahi Lakan Mumuney
+
